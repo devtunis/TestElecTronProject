@@ -1,0 +1,6 @@
+node_modules/
+dist/
+my-vue-app/node_modules/
+my-vue-app/dist/
+.env
+.DS_Store

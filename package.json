@@ -1,0 +1,26 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "My first Electron desktop app",
+  "main": "main.js",
+  "author": "",
+  "license": "ISC",
+ "scripts": {
+  "start": "electron .",
+  "build-app": "cd my-vue-app && npm run build",
+  "dist": "npm run build-app && electron-builder"
+}
+,
+  "build": {
+    "appId": "com.myapp.desktop",
+    "productName": "MyApp",
+    "win": {
+      "target": "nsis",
+      "icon": "n.png"
+    }
+  },
+  "devDependencies": {
+    "electron": "^38.1.0",
+    "electron-builder": "^24.13.3"
+  }
+}
