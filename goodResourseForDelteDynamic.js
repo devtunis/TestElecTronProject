@@ -12,3 +12,4 @@ updates = Object.fromEntries(
 );
 
 console.log(updates);
+Object.fromEntries(arr) // i lov ethis function make me so fucking gldae
