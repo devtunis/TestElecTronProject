@@ -10,7 +10,7 @@ function createWindow() {
       webSecurity: true, // ensures HTTPS requests work
     },
   })
-
+ 
   
    win.loadFile(path.join(__dirname, "my-vue-app", "dist", "index.html"));
 }
