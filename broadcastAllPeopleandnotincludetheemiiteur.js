@@ -1,1 +1,1 @@
- socket.broadcast.emit("thank", [1,2,3]);
+  socket.broadcast.emit("thank", [1,2,3]);
