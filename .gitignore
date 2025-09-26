@@ -1,4 +1,4 @@
-node_modules/
+node_modules 
 dist/
 my-vue-app/node_modules/
 my-vue-app/dist/
